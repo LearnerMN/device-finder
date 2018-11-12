@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "905610126574",
+    "firebase_url": "https://device-finder-a5859.firebaseio.com",
+    "project_id": "device-finder-a5859",
+    "storage_bucket": "device-finder-a5859.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905610126574:android:55e99559d7c73bc3",
+        "android_client_info": {
+          "package_name": "com.shiftdsm.devicefinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905610126574-t7amhmun3ch8odr9r3q79n8802e4sp9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMZNADQbUytmuKe-wJdgRo8Y6iPM6EmuM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

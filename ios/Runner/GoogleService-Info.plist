@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>905610126574-gbe0ue4mqk1cd4ngb9ver5rsjlo3b1vn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.905610126574-gbe0ue4mqk1cd4ngb9ver5rsjlo3b1vn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDSXtCO1H4plBBPyZkzyh9bw-LCNkYzeZQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>905610126574</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.shiftdsm.deviceFinder</string>
+	<key>PROJECT_ID</key>
+	<string>device-finder-a5859</string>
+	<key>STORAGE_BUCKET</key>
+	<string>device-finder-a5859.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:905610126574:ios:9645859d42e66592</string>
+	<key>DATABASE_URL</key>
+	<string>https://device-finder-a5859.firebaseio.com</string>
+</dict>
+</plist>
