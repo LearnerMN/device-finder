@@ -90,17 +90,26 @@ class HomePageState extends State<HomePage> {
       onTap: () => Firestore.instance.runTransaction((trans) async{
         final freshSnapshot = await trans.get(record.reference);
         final fresh = Device.fromSnapshot(freshSnapshot);
-        await trans.update(
-          record.reference, 
-          { 
-            'is_available': !fresh.isAvailable, 
-            'user':  {
-              'id': currentUser.uid,
-              'name': currentUser.displayName,
-              'img_url': currentUser.photoUrl
+        if (fresh.isAvailable) {
+          await trans.update(
+            record.reference, 
+            { 
+              'is_available': false, 
+              'user':  {
+                'id': currentUser.uid,
+                'name': currentUser.displayName,
+                'img_url': currentUser.photoUrl
+              }
             }
-          }
-        );
+          );
+        } else if (fresh.user.id == currentUser.uid){
+          await trans.update(
+            record.reference, 
+            { 
+              'is_available': true
+            }
+          );
+        }
       }),
     ) ;
   }
